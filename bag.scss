@@ -1,0 +1,59 @@
+#bag_container {
+  min-width: 200px;
+  max-width: 800px;
+  position: fixed;
+  height: auto;
+  min-height: 20px;
+  padding: 1px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 12px;
+
+  h1, h2, h3, h4, h5 {
+    margin: 0px;
+  }
+
+  #bag_title {
+    background: rgb(37, 37, 37);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    font-size: 12px;
+
+    padding: 2px;
+
+    cursor: pointer;
+  }
+
+  #bag_content {
+    margin-top: 5px;
+
+    .category {
+      box-shadow: inset 0 0 0 1px black;
+      background: rgb(232, 232, 232);
+
+      .header {
+        background: rgb(215, 215, 215);
+        border: 1px solid black;
+        cursor: pointer;
+      }
+
+      .option {
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-bottom: 2px;
+        border-bottom: 1px solid grey;
+        margin-bottom: 2px;
+        &:last-child {
+          border-bottom: none;
+        }
+
+        input[type=text] {
+
+        }
+      }
+    }
+  }
+}
