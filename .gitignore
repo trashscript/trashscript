@@ -13,11 +13,13 @@ $RECYCLE.BIN/
 node_modules/
 tmp/
 deploy/
+static/
+
 
 #crap
 *.log
 *.map
-*.css
+*.scss
 *.iml
 .ftppass
 lib/3rd/zepto.min.js
@@ -58,3 +60,4 @@ Temporary Items
 .apdisk
 dist/trashscript-0.0.1.no-css.js
 dist/trashscript.user.js
+dist/hover.min.css
