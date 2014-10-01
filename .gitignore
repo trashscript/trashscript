@@ -8,21 +8,6 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
-#Auto-gend folder
-.idea/
-node_modules/
-tmp/
-deploy/
-dist/
-
-#crap
-*.log
-*.map
-*.css
-*.iml
-.ftppass
-lib/3rd/zepto.min.js
-
 # Windows Installer files
 *.cab
 *.msi
@@ -41,8 +26,7 @@ lib/3rd/zepto.min.js
 .LSOverride
 
 # Icon must end with two \r
-Icon
-
+Icon
 
 # Thumbnails
 ._*
