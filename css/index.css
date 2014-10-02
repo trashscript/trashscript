@@ -48,7 +48,7 @@ ul {
   margin-bottom: 50vh;
   margin-bottom: calc(50vh - 135px);
   font-size: 24px;
-  font-family: 'GeosansLight';
+  font-family: 'geosanslightregular';
   text-align: center;
   display: table; }
   #container section {
